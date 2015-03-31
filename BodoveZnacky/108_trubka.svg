@@ -8,12 +8,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1.5mm"
+   width="1.4999999mm"
    height="3mm"
-   viewBox="0 0 5.3149606 10.629921"
+   viewBox="0 0 5.3149602 10.629921"
    id="svg8632"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -28,27 +27,6 @@
          offset="0"
          id="stop14572" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient13116">
-      <stop
-         style="stop-color:#4e4700;stop-opacity:1;"
-         offset="0"
-         id="stop13118" />
-      <stop
-         style="stop-color:#4e4700;stop-opacity:0;"
-         offset="1"
-         id="stop13120" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient13116"
-       id="linearGradient13122"
-       x1="2.2117681"
-       y1="1049.5609"
-       x2="1.2126427"
-       y2="1045.9672"
-       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -57,22 +35,28 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="44.8"
-     inkscape:cx="0.48761208"
-     inkscape:cy="5.5735609"
+     inkscape:zoom="63.356768"
+     inkscape:cx="2.2139875"
+     inkscape:cy="4.4464517"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-grids="false"
      inkscape:snap-to-guides="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="706"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <inkscape:grid
        type="xygrid"
-       id="grid9180" />
+       id="grid9180"
+       originx="-1.1920928e-007"
+       originy="-3.8114253e-005" />
   </sodipodi:namedview>
   <metadata
      id="metadata8637">
@@ -90,24 +74,18 @@
      inkscape:label="Vrstva 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1041.7323)">
+     transform="translate(-1.1920929e-7,-1041.7323)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.15471566px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2.6146848,1041.7404 0.085591,5.4251"
+       id="path14602"
+       inkscape:connector-curvature="0" />
     <ellipse
-       style="opacity:0;fill:url(#linearGradient13122);fill-opacity:1;stroke:#000000;stroke-width:0.461;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path13114"
-       cx="2.2209821"
-       cy="1049.5273"
-       rx="1.4620535"
-       ry="1.1160715" />
-    <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.19805527;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.98939933"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.23041081;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.98939933"
        id="path13124"
        cx="2.6574802"
        cy="1049.7047"
-       r="2.0584526" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.18460941px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 2.613945,1041.7391 0.087071,5.6129"
-       id="path14602"
-       inkscape:connector-curvature="0" />
+       rx="2.0422747"
+       ry="2.042275" />
   </g>
 </svg>

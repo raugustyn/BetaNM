@@ -14,10 +14,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1605435.33150000008754432</xmin>
-      <ymin>6428614.44974999967962503</ymin>
-      <xmax>1605580.16849999991245568</xmax>
-      <ymax>6428725.76025000121444464</ymax>
+      <xmin>1605418.26832789904437959</xmin>
+      <ymin>6428594.15037137363106012</ymin>
+      <xmax>1605600.18919746368192136</xmax>
+      <ymax>6428733.96066123340278864</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -147,7 +147,7 @@
       </ComposerMap>
     </Composition>
   </Composer>
-  <Composer title="MapaScale500" visible="0">
+  <Composer title="MapaScale500" visible="1">
     <Composition gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="5" numPages="1" paperHeight="210" smartGuides="1" printAsRaster="0" generateWorldFile="0">
       <symbol alpha="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -164,6 +164,27 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
+      <ComposerShape shapeType="1" cornerRadius="0">
+        <symbol alpha="1" type="fill" name="">
+          <layer pass="0" class="SimpleFill" locked="0">
+            <prop k="border_width_map_unit_scale" v="0,0"/>
+            <prop k="color" v="0,0,0,0"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="227,26,28,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.05"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="style" v="solid"/>
+          </layer>
+        </symbol>
+        <ComposerItem pagey="10.7558" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="13.8988" y="10.7558" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="6" outlineWidth="0.3" excludeFromExports="0" uuid="{acd11058-0421-48e6-8b7b-0933e10bd99b}" height="12.4854" itemRotation="0" frame="false" pagex="13.8988">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+        </ComposerItem>
+      </ComposerShape>
       <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Měřítko 1:500" htmlState="0" halign="4">
         <LabelFont description="MS Shell Dlg 2,24,-1,5,50,0,0,0,0,0"/>
         <FontColor red="0" blue="0" green="0"/>
@@ -233,7 +254,7 @@
           </markerStyle>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="1.23375" positionMode="0" positionLock="false" x="0" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="297" outlineWidth="0.3" excludeFromExports="0" uuid="{ba306aae-45d8-439a-b33d-03cae520c643}" height="210" itemRotation="0" frame="false" pagex="0">
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="5.92682" positionMode="0" positionLock="false" x="-0.000200127" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="297" outlineWidth="0.3" excludeFromExports="0" uuid="{ba306aae-45d8-439a-b33d-03cae520c643}" height="210" itemRotation="0" frame="false" pagex="-0.000200127">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         </ComposerItem>
