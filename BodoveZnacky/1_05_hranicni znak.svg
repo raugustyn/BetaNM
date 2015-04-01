@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="158.60889"
-     inkscape:cx="1.7716535"
+     inkscape:cx="0.81016893"
      inkscape:cy="2.6574803"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -61,19 +61,19 @@
      id="layer1"
      transform="translate(0,-1047.0472)">
     <circle
-       style="opacity:1;fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.46102607;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.35433075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4690"
-       cx="1.7731758"
-       cy="1048.8174"
-       r="1.5411406" />
+       cx="1.7716537"
+       cy="1048.8188"
+       r="1.5944883" />
     <circle
-       style="opacity:1;fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.46102607;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.35433078;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4690-4"
-       cx="1.7731758"
-       cy="1050.5891"
-       r="1.5411406" />
+       cx="1.7716537"
+       cy="1050.5905"
+       r="1.5944883" />
     <ellipse
-       style="opacity:1;fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.22743087;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#000100;fill-opacity:1;stroke:#000000;stroke-width:0.28346457;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4707"
        cx="1.7716535"
        cy="1050.5905"
