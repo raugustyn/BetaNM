@@ -15,7 +15,7 @@
    id="svg6339"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="zahrada.svg">
+   sodipodi:docname="3_04_zahrada.svg">
   <defs
      id="defs6341" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="79.654285"
-     inkscape:cx="2.3387085"
-     inkscape:cy="2.9753994"
+     inkscape:zoom="158.60889"
+     inkscape:cx="4.4291339"
+     inkscape:cy="2.6574803"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -55,11 +55,11 @@
      id="layer1"
      transform="translate(0,-1047.0472)">
     <circle
-       style="opacity:1;fill:none;fill-opacity:0.62126243;stroke:#000000;stroke-width:0.4882181;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:0.62126243;stroke:#000000;stroke-width:0.46083829;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path6891"
-       cx="2.6574802"
-       cy="1049.7047"
-       r="2.4133713" />
+       cx="2.6586819"
+       cy="1049.7035"
+       r="2.4270611" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.46062992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 2.6574803,1052.1318 6.2007874,0"

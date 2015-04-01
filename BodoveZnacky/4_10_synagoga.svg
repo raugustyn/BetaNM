@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.4"
-     inkscape:cx="3.8736791"
-     inkscape:cy="6.0600955"
+     inkscape:zoom="59.478333"
+     inkscape:cx="7.0866142"
+     inkscape:cy="7.0866142"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -35,7 +35,8 @@
      inkscape:window-height="1018"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false">
     <inkscape:grid
        type="xygrid"
        id="grid4690"
@@ -61,13 +62,13 @@
      id="layer1"
      transform="translate(0,-1038.189)">
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.44655481;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 7.0866142,1051.9415 -6.68334031,-9.986 13.36668011,0 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.45972234;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 7.0876173,1051.9489 -6.65719087,-9.9856 13.31438157,0 z"
        id="path4694"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.46062992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 7.1033302,1038.5908 6.6524578,10.0043 -13.33761682,-0.022 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.45976353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 7.1033097,1038.6037 6.6405183,9.9846 -13.31367935,-0.022 z"
        id="path4694-8"
        inkscape:connector-curvature="0" />
   </g>
