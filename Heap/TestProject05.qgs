@@ -3,7 +3,7 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="LineSamples20150403085303111" name="LineSamples">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="LineSamples20150403092236957" name="LineSamples">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -11,10 +11,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1605464.64902194333262742</xmin>
-      <ymin>6428723.24848593678325415</ymin>
-      <xmax>1605605.68196903099305928</xmax>
-      <ymax>6428752.86038586404174566</ymax>
+      <xmin>1605490.51810930599458516</xmin>
+      <ymin>6428739.20494886301457882</ymin>
+      <xmax>1605549.93401044397614896</xmax>
+      <ymax>6428751.68017365969717503</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -31,26 +31,28 @@
       </spatialrefsys>
     </destinationsrs>
     <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:3395" srcAuthId="EPSG:3395" srcDatumTransform="-1" destDatumTransform="-1" layerid="LineSamples20150403092236957"/>
       <layer_coordinate_transform destAuthId="EPSG:3395" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="LineSamples20150403085303111"/>
       <layer_coordinate_transform destAuthId="EPSG:3395" srcAuthId="EPSG:3395" srcDatumTransform="-1" destDatumTransform="-1" layerid="FewBuildings20150403063159304"/>
+      <layer_coordinate_transform destAuthId="EPSG:3395" srcAuthId="EPSG:3395" srcDatumTransform="-1" destDatumTransform="-1" layerid="LineSamples20150403092210341"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <visibility-presets/>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>LineSamples20150403085303111</item>
+      <item>LineSamples20150403092236957</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="LineSamples" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="LineSamples20150403085303111" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="LineSamples20150403092236957" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
   <projectlayers layercount="1">
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>LineSamples20150403085303111</id>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>LineSamples20150403092236957</id>
       <datasource>./LineSamples.shp</datasource>
       <title></title>
       <abstract></abstract>
@@ -60,14 +62,14 @@
       <layername>LineSamples</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
+          <proj4>+proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>1353</srsid>
+          <srid>3395</srid>
+          <authid>EPSG:3395</authid>
+          <description>WGS 84 / World Mercator</description>
+          <projectionacronym>merc</projectionacronym>
           <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
+          <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
       <provider encoding="System">ogr</provider>
@@ -83,9 +85,9 @@
         </edittype>
       </edittypes>
       <renderer-v2 symbollevels="0" type="RuleRenderer">
-        <rules key="{d4af7884-a436-40d1-b3af-7ef1d66561ea}">
-          <rule key="{4e800ce9-b3fe-4776-b909-2a361b6918b7}" symbol="0"/>
-          <rule filter=" $length > 0.00045" key="{27860dc7-ae68-46d4-ba98-0fbf7002b507}" symbol="1" label="Dlouhe"/>
+        <rules key="{cd9fbd22-6b2a-44ce-9292-7e4d00846372}">
+          <rule key="{08cbad23-dfaf-44b3-8550-328a162941a5}" symbol="0"/>
+          <rule filter=" $length >= 50" key="{9a7aa4a9-2e12-4749-9aaa-202bc0641514}" symbol="1" label="Dlouhe linie"/>
         </rules>
         <symbols>
           <symbol alpha="1" type="line" name="0">
@@ -96,7 +98,7 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="152,64,149,255"/>
+              <prop k="line_color" v="0,0,0,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="3"/>
               <prop k="line_width_unit" v="MM"/>
@@ -108,23 +110,6 @@
             </layer>
           </symbol>
           <symbol alpha="1" type="line" name="1">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="227,26,28,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="3"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0"/>
-            </layer>
             <layer pass="0" class="MarkerLine" locked="0">
               <prop k="interval" v="3"/>
               <prop k="interval_map_unit_scale" v="0,0"/>
@@ -135,11 +120,11 @@
               <prop k="offset_along_line_unit" v="MM"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="placement" v="firstvertex"/>
+              <prop k="placement" v="lastvertex"/>
               <prop k="rotate" v="1"/>
-              <symbol alpha="1" type="marker" name="@1@1">
+              <symbol alpha="1" type="marker" name="@1@0">
                 <layer pass="0" class="SimpleMarker" locked="0">
-                  <prop k="angle" v="270"/>
+                  <prop k="angle" v="90"/>
                   <prop k="color" v="255,0,0,255"/>
                   <prop k="horizontal_anchor_point" v="1"/>
                   <prop k="name" v="triangle"/>
@@ -152,7 +137,7 @@
                   <prop k="outline_width_map_unit_scale" v="0,0"/>
                   <prop k="outline_width_unit" v="MM"/>
                   <prop k="scale_method" v="area"/>
-                  <prop k="size" v="9"/>
+                  <prop k="size" v="10"/>
                   <prop k="size_map_unit_scale" v="0,0"/>
                   <prop k="size_unit" v="MM"/>
                   <prop k="vertical_anchor_point" v="1"/>
@@ -184,7 +169,7 @@
         <property key="labeling/centroidWhole" value="false"/>
         <property key="labeling/decimals" value="3"/>
         <property key="labeling/displayAll" value="false"/>
-        <property key="labeling/dist" value="0"/>
+        <property key="labeling/dist" value="5"/>
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
@@ -198,7 +183,7 @@
         <property key="labeling/fontLimitPixelSize" value="false"/>
         <property key="labeling/fontMaxPixelSize" value="10000"/>
         <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSize" value="20"/>
         <property key="labeling/fontSizeInMapUnits" value="false"/>
         <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
@@ -332,7 +317,7 @@
       </labelattributes>
       <editform></editform>
       <editforminit/>
-      <featformsuppress>0</featformsuppress>
+      <featformsuppress>1</featformsuppress>
       <annotationform></annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
@@ -367,7 +352,7 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">1</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>LineSamples20150403085303111</value>
+        <value>LineSamples20150403092236957</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
