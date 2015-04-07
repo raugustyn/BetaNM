@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1.3430001mm"
+   height="1.7410001mm"
+   viewBox="0 0 4.7586616 6.1688978"
+   id="svg5243"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="3_01_orna_puda_kresba.svg">
+  <defs
+     id="defs5245" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="137.00108"
+     inkscape:cx="2.3740158"
+     inkscape:cy="3.1021654"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5791"
+       units="mm"
+       spacingx="0.03543307"
+       spacingy="0.035433069" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5248">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1046.1933)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="35.433071"
+       y="1048.8188"
+       id="text5793"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5795"
+         x="35.433071"
+         y="1048.8188" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.21653175px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-0.43329361"
+       y="945.37653"
+       id="text5797"
+       sodipodi:linespacing="125%"
+       transform="scale(0.89845579,1.1130208)"><tspan
+         sodipodi:role="line"
+         id="tspan5799"
+         x="-0.43329361"
+         y="945.37653" /></text>
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.03543307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 0,1046.374 1.8779527,0 0,1.063 c 0,0 0.2380657,-0.5636 0.7168772,-0.9236 0.3311595,-0.2489 0.8793646,-0.3455 1.1256425,-0.3165 0.6023622,0.071 0.992126,0.1771 0.992126,0.1771 l 0,1.4882 -0.5669291,0 c -0.070866,-0.8149 -0.4251969,-0.8858 -0.8858268,-0.8858 -0.4606299,0 -0.9697817,0.2852 -1.166512,0.7686 -0.321677,0.7905 -0.2153778,1.2865 -0.2153778,1.9597 0,0.6732 0,2.0552 0,2.0552 l 1.0984252,0 0,0.6023 -2.90551176,0 0,-0.6023 0.85039369,0 0,-4.7835 -0.92125983,0 z"
+       id="path4150"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccssccczszccccccccc" />
+  </g>
+</svg>
