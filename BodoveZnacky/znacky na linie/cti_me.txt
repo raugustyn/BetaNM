@@ -1,0 +1,51 @@
+Upravené SVG znaèky plotu pro linie.
+
+Uprava znaèek: 
+ - upraveno tak, aby byli umístìny vztažným bodem StøedH a StøedV. Aby znaèky byli od line velike 0,7 mm je nutné je od linie odsadit v kolmém smìru (dY) o její tlošku (t)
+ (dY=t/2)
+ - barvy znaèky plotù upraveny jednotnì na RGB (130,160,0), RGBA (823c00ff)
+ - barva škrtky na èervenou: RGB (255,0,0), RGBA (ff0000ff) 
+ - barva sluèky na èernou: RGB (0,0,0), RGBA (000000ff)	
+
+
+Popis funkce
+
+Vstupy do funkce:
+- informace o mìøítku a jednotkách
+	základní mìøítko v QGIS 1:500 a umisujeme v mapových jednotkách (hodnoty v mm = polovina v mapových jednotkách)
+- interval znaèky umístìní i
+	 znaèky na linii "vlastnictví z jedné strany" je 24mm v tisku  (i1)
+	 znaèky na linii "vlastnictví z obou stran" je 12mm (i2) a každá druhá znaèka je otoèená o 180° a odsazená od linie o zápornou hodnotu -dY   
+- odsazení od krajních bodù (dx) - jsou brány v úvahu bodové znaèky na lomových bodech (2mm) a polovina tlouštka znaèky plotu (0,7mm) a pøidané okolí (1,3mm): celkem 4mm   ........... Pozn: nelze umístovat znaèky na linie krattší 8mm v tisku
+
+
+
+- informace o linii (polohové a geometrické vlastnosti)
+
+- typ umístìné znaèky kod		znaèka		interval
+	2_10 		2_10_dreveny plot.svg		(i1)			
+	2_11 		2_10_dreveny plot.svg		(i2)		
+	2_12 		2_12_drateny plot.svg 		(i1)
+	2_13 		2_12_drateny plot.svg		(i2)
+	2_14 		2_14_zivy plot.svg		(i1)
+	2_15 		2_14_zivy plot.svg		(i2)
+	2_16		2_16_ohradni zed.svg		(i1)
+	2_17		2_16_ohradni zed.svg		(i2)
+
+
+
+
+
+Postup
+
+-identifukuj linni zjisti její vlastnosti a zhodno zda vyhovuje na umístìní znaèky
+	-min. vzdálenost d - 2 * dX >= 0
+-napoèítej si vlastnosti na umístìní
+	- poèet umístìní: délka linie (d) s odeèteným okolím (dx) vydìleno intervalem i       (d - 2 * dX)/i = x   celé èíslo    
+- umísti SVG znaèky
+	-první 4mm v tisku od lomového bodu (dx) odsad jí od linie o dY
+	- další jsou po daném intervalu i
+
+
+bude rozšíøeno o znaèky vyších správních celkù: hranice státní, krajská, okresní a obecní, které mají rozné dX
+       
