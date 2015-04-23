@@ -14,10 +14,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1605415.42811877024360001</xmin>
-      <ymin>6428596.19928025081753731</ymin>
-      <xmax>1605600.93724940367974341</xmax>
-      <ymax>6428738.76722954958677292</ymax>
+      <xmin>1605419.56664336519315839</xmin>
+      <ymin>6428595.69252213649451733</ymin>
+      <xmax>1605605.07577399862930179</xmax>
+      <ymax>6428738.26047143526375294</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -57,7 +57,7 @@
   <projectlayers layercount="2">
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>FewBuildings20150407104113038</id>
-      <datasource>../../Temp/FewBuildings.shp</datasource>
+      <datasource>./FewBuildings.shp</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -325,7 +325,7 @@
                   <prop k="angle" v="0"/>
                   <prop k="color" v="#000000"/>
                   <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="name" v="../BodoveZnacky/2_12_drateny.svg"/>
+                  <prop k="name" v=""/>
                   <prop k="offset" v="0,0.25"/>
                   <prop k="offset_map_unit_scale" v="0,0"/>
                   <prop k="offset_unit" v="MapUnit"/>
@@ -514,10 +514,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -734,7 +734,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>centroids20150407100552148</id>
-      <datasource>../../Temp/centroids.shp</datasource>
+      <datasource>./centroids.shp</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -968,10 +968,7 @@
         <edittype widgetv2type="TextEdit" name="tags">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="rotation">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="rotint">
+        <edittype widgetv2type="TextEdit" name="labelrot">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -1128,8 +1125,6 @@
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="area"/>
       </renderer-v2>
@@ -1302,10 +1297,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1518,10 +1513,7 @@
         <edittype widgetv2type="TextEdit" name="tags">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="rotation">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="rotint">
+        <edittype widgetv2type="TextEdit" name="labelrot">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
